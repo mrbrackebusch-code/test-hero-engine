@@ -1,0 +1,25 @@
+{
+    "name": "test Hero Engine",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Hero Engine": "github:mrbrackebusch-code/hero-engine#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.62",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
